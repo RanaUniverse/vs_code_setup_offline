@@ -25,3 +25,5 @@ The Extensions are not now available to install offline.
 
 
 So from 2025 i need to use the ```./online_vs_code_install.sh``` to install this.
+
+The main.py file is just for a Demo Python File.
