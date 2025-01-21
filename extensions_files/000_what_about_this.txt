@@ -1,0 +1,9 @@
+This is all the .vsix file i downloded from the microsoft 
+https://marketplace.visualstudio.com/
+
+
+And i need to install these from the vs code or with the commands.
+
+From 2025 i found the .vsix file is not available to download.
+
+So i need to install this from online from now.

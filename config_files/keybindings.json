@@ -1,0 +1,26 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+shift+alt+enter",
+        "command": "python.execInDedicatedTerminal"
+    },
+    {
+        "key": "ctrl+shift+alt+backspace",
+        "command": "workbench.action.terminal.killAll"
+    },
+    {
+        "key": "ctrl+shift+alt+p",
+        "command": "python.setInterpreter"
+    },
+    {
+        "key": "ctrl+shift+alt+u",
+        "command": "workbench.action.tasks.runTask",
+        "args": "Run Main Script"
+    },
+    {
+        "key": "ctrl+shift+alt+k",
+        "command": "workbench.action.terminal.kill"
+    }
+      
+      
+]
