@@ -1,6 +1,10 @@
 # VS Code Install with My Favourite Settings and so on...
 
 
+### git clone https://github.com/RanaUniverse/v2
+This can be done like this.
+
+
 The Last VSIX Files i downloded from the vs code extension tab, by right click and download vsix file.
 This all are here Released Version on 1 February 2025
 
