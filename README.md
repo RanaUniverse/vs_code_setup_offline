@@ -1,7 +1,7 @@
 # VS Code Install with My Favourite Settings and so on...
 
 
-### git clone https://github.com/RanaUniverse/v2
+### ```git clone https://github.com/RanaUniverse/v2```
 This can be done like this.
 
 
