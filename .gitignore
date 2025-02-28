@@ -1,0 +1,7 @@
+
+
+code_*.deb
+
+!code_1.2.3.4.5_amd64.deb
+
+vs_code*.zip

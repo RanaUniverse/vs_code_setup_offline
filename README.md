@@ -1,5 +1,25 @@
 # VS Code Install with My Favourite Settings and so on...
 
+This offline installation will install all the extensions i want without asking anything. 3 Python Extension. Dragan Color Theme Extension.
+
+
+
+
+
+# Last Update Time:
+
+28 February 2025
+code_1.97.2-1739406807_amd64.deb
+
+
+
+# How i make the Releases
+
+Example code to make release zip,
+
+zip -r vs_code_v1.0.0.zip . -x ".git*"
+
+
 
 ### ```git clone https://github.com/RanaUniverse/v2```
 This can be done like this.
