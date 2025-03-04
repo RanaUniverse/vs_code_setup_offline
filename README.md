@@ -17,7 +17,7 @@ code_1.97.2-1739406807_amd64.deb
 
 Example code to make release zip,
 
-zip -r vs_code_v1.0.0.zip . -x ".git*"
+zip -r vs_code_setup_offline_v1.0.0.zip . -x ".git*"
 
 
 
