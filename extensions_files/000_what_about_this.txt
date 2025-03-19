@@ -7,3 +7,19 @@ And i need to install these from the vs code or with the commands.
 From 2025 i found the .vsix file is not available to download.
 
 So i need to install this from online from now.
+
+For download i need to use vs code extensions and download from the settings icon.
+
+
+Python
+Linux 64
+
+Pylance
+All Platforms
+
+Python Debugger
+Linux 64
+
+Black Formatter
+All Platforms
+
