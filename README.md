@@ -8,8 +8,8 @@ This offline installation will install all the extensions i want without asking 
 
 # Last Update Time:
 
-19 March 2025
-code_1.98.2-1741788907_amd64.deb
+21 April 2025
+code_1.99.3-1744761595_amd64.deb
 
 
 # How i make the Releases
