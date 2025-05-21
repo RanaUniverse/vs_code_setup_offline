@@ -8,8 +8,8 @@ This offline installation will install all the extensions i want without asking 
 
 # Last Update Time:
 
-21 April 2025
-code_1.99.3-1744761595_amd64.deb
+21 May 2025
+code_1.100.2-1747260578_amd64.deb
 
 
 # How i make the Releases
@@ -37,7 +37,6 @@ Python:
     Black Formatter
 
 
-code_1.96.4-1736991114_amd64.deb: 1 February 2025
 
 This is specially for vs code installation in the my Ubuntu Laptop.
 
