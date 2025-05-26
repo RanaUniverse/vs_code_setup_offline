@@ -37,6 +37,14 @@ Python:
     Black Formatter
 
 
+In Online Extensions installed:
+```
+code --install-extension ms-python.python
+code --install-extension miladfathy.dragan-color-theme
+code --install-extension ms-python.black-formatter
+```
+Because python only will install pylance + debugger + python all 3.
+
 
 This is specially for vs code installation in the my Ubuntu Laptop.
 
