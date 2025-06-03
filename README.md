@@ -14,9 +14,7 @@ code_1.100.2-1747260578_amd64.deb
 
 # How i make the Releases
 
-Example code to make release zip,
-
-zip -r vs_code_setup_offline_v1.0.0.zip . -x ".git*"
+I am now need to change the version number and some information in the [script](./making_release_zip.sh), which i need to run after keeping the code's .deb file.
 
 
 
