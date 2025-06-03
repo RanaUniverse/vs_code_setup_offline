@@ -10,7 +10,9 @@ nmcli radio wifi off && echo "Wifi has been turned off🙃🙂‍↕️🍌, Ple
 echo "If wifi has been Turned Off, please don't turn on it until VS Code has been installed completely.'"
 
 echo "Visual Studio Code is installing..."
-sudo dpkg -i code_*.deb
+
+# sudo dpkg -i code_*.deb
+
 
 # Copy keyboard shortcuts and settings
 echo "Loading VS Code keyboard shortcuts and settings..."
