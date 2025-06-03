@@ -13,6 +13,8 @@ echo "Visual Studio Code is installing..."
 
 # sudo dpkg -i code_*.deb
 
+sudo apt install ./code_*.deb
+
 
 # Copy keyboard shortcuts and settings
 echo "Loading VS Code keyboard shortcuts and settings..."
