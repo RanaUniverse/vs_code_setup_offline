@@ -2,14 +2,11 @@
 
 This offline installation will install all the extensions i want without asking anything. 3 Python Extension. Dragan Color Theme Extension.
 
+# OS Versions:
+    * Ubuntu 24.04 LTS
+    * Xubuntu 24.04 LTS
+I just checked successfully in this two.
 
-
-
-
-# Last Update Time:
-
-21 May 2025
-code_1.100.2-1747260578_amd64.deb
 
 
 # How i make the Releases
