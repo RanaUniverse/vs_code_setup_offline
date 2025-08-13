@@ -7,8 +7,8 @@
 # Remember before making the zip i need to change the version name and make the zip.
 
 
-My_VERSION="v1.0.0"
-VSCode_VERSION="1.10.100"
+My_VERSION="v2.0.0"
+VSCode_VERSION="1.103.0"
 
 
 # Get repo name from current directory
