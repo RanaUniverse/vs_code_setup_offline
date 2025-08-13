@@ -28,9 +28,12 @@ echo "The Extensions For VS Code are installing..."
 # Install VS Code extensions
 
 code --install-extension extensions_files/miladfathy.dragan-color-theme-*.vsix
+
+code --install-extension extensions_files/python/ms-python.vscode-python-envs-1.2.0-linux-x64.vsix 
 code --install-extension extensions_files/python/ms-python.debugpy-*.vsix
 code --install-extension extensions_files/python/ms-python.python-*.vsix
 code --install-extension extensions_files/python/ms-python.vscode-pylance-*.vsix
+
 code --install-extension extensions_files/python/ms-python.black-formatter-*.vsix
 
 echo "VS Code and its extensions has been installed successfully."
