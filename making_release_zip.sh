@@ -1,13 +1,26 @@
+# This zip file will be in the top-level folder so be careful during extraction
+# Example to unzip:
+# unzip vscode_ubuntu_v1.0.0_vscode_version_9.99.999.zip -d folder_name
 
-# This zip file will be in the top level folder so in extraction time i need to careful
-# unzip vs_code_setup_offline_v1.0.0.zip -d folder_name
+
+# Set your custom version and the VS Code version
+# Remember before making the zip i need to change the version name and make the zip.
 
 
+My_VERSION="v1.0.0"
+VSCode_VERSION="1.10.100"
 
-VERSION="v1.0.0"
 
+# Get repo name from current directory
 repo_name=$(basename "$(pwd)")
 
-zip -r "${repo_name}_$VERSION.zip" . -x "*.git*"
+# Construct zip file name
+zip_name="${repo_name}_${My_VERSION}_vscode_${VSCode_VERSION}.zip"
 
-echo "This zip file is made for the release of this repo, i.e., $repo_name."
+# Create the zip file, excluding .git directory and its contents
+zip -r "$zip_name" . -x "*.git*" ".git/*"
+
+# Final message
+echo "This zip file is made for the release of this repo ($repo_name), version: $My_VERSION, with VS Code version: $VSCode_VERSION."
+
+echo "Created zip: $zip_name"
