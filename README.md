@@ -62,7 +62,7 @@ Python Debugger - Linux 64
 Python Environments - Linux 64
 
 Black Formatter - Direct Download
-Dragan Color Theme - Direct Download
+Dragan Color Theme - All Platforms
 
 These were saved in the repo's `extensions/` folder during the **1 February 2025 Release**.
 
