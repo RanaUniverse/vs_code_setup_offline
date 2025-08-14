@@ -5,10 +5,10 @@
 
 # Set your custom version and the VS Code version
 # Remember before making the zip i need to change the version name and make the zip.
+# I need to keep the latest vs code .deb file here in the current directory.
 
-
-My_VERSION="v2.0.0"
-VSCode_VERSION="1.103.0"
+My_VERSION="v2.1.0"
+VSCode_VERSION="1.103.1"
 
 
 # Get repo name from current directory
