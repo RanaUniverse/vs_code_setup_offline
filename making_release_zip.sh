@@ -7,8 +7,8 @@
 # Remember before making the zip i need to change the version name and make the zip.
 # I need to keep the latest vs code .deb file here in the current directory.
 
-My_VERSION="v2.1.0"
-VSCode_VERSION="1.103.1"
+My_VERSION="v2.2.0"
+VSCode_VERSION="1.108.0"
 
 
 # Get repo name from current directory

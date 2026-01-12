@@ -8,35 +8,21 @@ By running the `./installation_script.sh` it will install the VS Code and instal
 ## ✅ Supported Operating Systems
 - **Ubuntu 24.04 LTS**
 - **Xubuntu 24.04 LTS**
-- Other Ubuntu-based OSes may work, but I haven't tested those.
+- **Others DEB Based Linux Os Should Work (I didn't Check all)**
 ---
 
 
 This repo is made to install the **Visual Studio Code** offline on Ubuntu-based systems using a pre-packaged `.deb` archive.
 
-Example of a Version:
-> **Version:** `1.103.0`  
-> **Last Updated:** `13 August 2025`
 
-
-
-
-
+## [Release Page to Download](https://github.com/RanaUniverse/vs_code_setup_offline/releases)
+[Click This Link To Open The Page](https://github.com/RanaUniverse/vs_code_setup_offline/releases)
 
 ## 💻 VS Code Install with My Favourite Settings and Extensions (Offline)
 
-This offline installation will install **VS Code** along with all my favourite extensions and settings — automatically, with no prompts.
+This offline installation will install **VS Code** along with all my favourite extensions and settings — automatically, with no extra prompts.
 
 ### ✅ Extensions Included (Offline)
-
-My Favourite:
-    Dragan Color Theme
-
-Python:
-    Python Debugger
-    Python
-    Pylance
-    Black Formatter
 
 
 My Favourite:
@@ -53,18 +39,20 @@ My Favourite:
 
 Note: Installing just `ms-python.python` installs **Python + Pylance + Debugger + Environments**.
 
-### 🗂️ VSIX Files Source
+### 🗂️ VSIX Files Sources
 I downloaded the VSIX files manually by right-clicking on the extensions in the VS Code Extensions tab and choosing **Download VSIX**.  
 
-Python - Linux 64
-Pylance - All Platforms
-Python Debugger - Linux 64
-Python Environments - Linux 64
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - Linux 64 bit
 
-Black Formatter - Direct Download
-Dragan Color Theme - All Platforms
+- [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) - All Platforms
 
-These were saved in the repo's `extensions/` folder during the **1 February 2025 Release**.
+- [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) - Linux 64 bit
+
+- [Python Environments](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs) - Linux 64 bit
+
+- [Black Formatter](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter) - Direct Download
+
+- [Dragan Color Theme](https://marketplace.visualstudio.com/items?itemName=Miladfathy.dragan-color-theme) - All Platforms
 
 
 ## 📦 How I Make the Offline Releases
@@ -72,7 +60,7 @@ These were saved in the repo's `extensions/` folder during the **1 February 2025
 When I want to release a new version:
 
 1. Download the latest `.deb` file from the official VS Code site.
-2. Put it in the repo folder.
+2. Put it in the repo folder. (Due to .gitignore this deb file is not tracked by git.)
 3. Update the version number and other information in the release script:
    - `./making_release_zip.sh`
 4. Run the script to generate the final offline zip package.
