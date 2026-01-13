@@ -15,6 +15,7 @@ By running the `./installation_script.sh` it will install the VS Code and instal
 This repo is made to install the **Visual Studio Code** offline on Ubuntu-based systems using a pre-packaged `.deb` archive.
 
 
+
 ## [Release Page to Download](https://github.com/RanaUniverse/vs_code_setup_offline/releases)
 [Click This Link To Open The Page](https://github.com/RanaUniverse/vs_code_setup_offline/releases)
 
@@ -53,6 +54,13 @@ I downloaded the VSIX files manually by right-clicking on the extensions in the 
 - [Black Formatter](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter) - Direct Download
 
 - [Dragan Color Theme](https://marketplace.visualstudio.com/items?itemName=Miladfathy.dragan-color-theme) - All Platforms
+
+
+## Important Before Cloning
+This has a lot of files and history so if i do normal clone it will take a lot of resource, so i if need to use and work on this repo i need to only download the current files and setup so i need to use the below command:
+```
+git clone --depth 1 https://github.com/RanaUniverse/vs_code_setup_offline
+```
 
 
 ## 📦 How I Make the Offline Releases

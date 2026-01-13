@@ -29,10 +29,10 @@ echo "The Extensions For VS Code are installing..."
 
 code --install-extension extensions_files/miladfathy.dragan-color-theme-*.vsix
 
-code --install-extension extensions_files/python/ms-python.vscode-python-envs-*.vsix 
 code --install-extension extensions_files/python/ms-python.debugpy-*.vsix
 code --install-extension extensions_files/python/ms-python.python-*.vsix
 code --install-extension extensions_files/python/ms-python.vscode-pylance-*.vsix
+code --install-extension extensions_files/python/ms-python.vscode-python-envs-*.vsix 
 
 code --install-extension extensions_files/python/ms-python.black-formatter-*.vsix
 
