@@ -11,9 +11,10 @@ echo "If wifi has been Turned Off, please don't turn on it until VS Code has bee
 
 echo "Visual Studio Code is installing..."
 
-# sudo dpkg -i code_*.deb
+sudo dpkg -i code_*.deb
 
-sudo apt install ./code_*.deb
+# sudo apt install ./code_*.deb
+
 
 
 # Copy keyboard shortcuts and settings
@@ -32,7 +33,7 @@ code --install-extension extensions_files/miladfathy.dragan-color-theme-*.vsix
 code --install-extension extensions_files/python/ms-python.debugpy-*.vsix
 code --install-extension extensions_files/python/ms-python.python-*.vsix
 code --install-extension extensions_files/python/ms-python.vscode-pylance-*.vsix
-code --install-extension extensions_files/python/ms-python.vscode-python-envs-*.vsix 
+code --install-extension extensions_files/python/ms-python.vscode-python-envs-*.vsix
 
 code --install-extension extensions_files/python/ms-python.black-formatter-*.vsix
 
