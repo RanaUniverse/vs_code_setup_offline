@@ -54,6 +54,7 @@ I downloaded the VSIX files manually by right-clicking on the extensions in the 
 - [Black Formatter](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter) - Direct Download
 
 - [Dragan Color Theme](https://marketplace.visualstudio.com/items?itemName=Miladfathy.dragan-color-theme) - All Platforms
+(This Dragan Extensions i will download old version 2.0.8 new verison has color problem with python.)
 
 
 ## Important Before Cloning
